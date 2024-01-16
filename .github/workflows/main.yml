@@ -1,7 +1,7 @@
 name: Example Workflow
 on:
   issue_comment:
-    types: [created, deleted]
+    types: [workflow_dispatch]
 jobs:
   run-command:
     runs-on: ubuntu-latest
