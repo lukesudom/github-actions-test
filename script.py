@@ -9,7 +9,7 @@ if  __name__ == "__main__":
     print("key ends in: ")
     print(TOKEN[:10])
     
-    url = '<https://api.thecatapi.com/v1/images/0XYvRd7oD'
+    url = 'https://api.thecatapi.com/v1/images/0XYvRd7oD'
     headers = {
         'x-api-key' : TOKEN
     }
