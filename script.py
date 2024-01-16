@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import requests
 import os
 from json import dumps
